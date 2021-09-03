@@ -1,0 +1,21 @@
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.header {
+
+  font-weight: bold;
+  color: white;
+  width: 100%;
+  background-color: #3A3A3A;
+}
+
+.menu_item {
+  margin: auto;
+  border-style: solid;
+  border-width: 0px 1px 0px 1px;
+  height: 70px;
+  text-align: center;
+}
