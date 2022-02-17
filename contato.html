@@ -12,19 +12,86 @@
 <body>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
-<header class="d-flex flex-wrap justify-content-center py-3">
-      <a href="" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
-        <img class="bi me-2" width="90" height="32" src="media/logo.png">
-      </a>
+  <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="./index.html"><img class="bi me-2" width="90" height="32" src="media/logo.png"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="nav nav-pills ms-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a href="./index.html" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="./sobre.html" class="nav-link">Sobre o curso</a></li>
+          <li class="nav-item"><a href="./pessoas.html" class="nav-link">Pessoas</a></li>
+          <li class="nav-item"><a href="./oportunidades.html" class="nav-link" aria-current="page">Oportunidades</a></li>
+          <li class="nav-item"><a href="./contato.html" class="nav-link active">Contato</a></li>
+          <li class="nav-item"><a href="./faq.html" class="nav-link">FAQ</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+ 
+    <div style="text-align:center">
+      <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40"
+      fill="#0d6efd" class="bi bi-envelope-fill" viewBox="0 0 16 16">
+        <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"/>
+      </svg>
+      <h1 style= "color:#444444"><b>Entre em contato</b></h1>
+    </div>
+    <br>
 
-      <ul class="nav nav-pills">
-        <li class="nav-item"><a href="./index.html" class="nav-link">Home</a></li>
-        <li class="nav-item"><a href="./sobre.html" class="nav-link">Sobre o curso</a></li>
-        <li class="nav-item"><a href="./oportunidades.html" class="nav-link">Oportunidades</a></li>
-        <li class="nav-item"><a href="./contato.html" class="nav-link active" aria-current="page">Contato</a></li>
-        <li class="nav-item"><a href="./faq.html" class="nav-link">FAQ</a></li>
-      </ul>
-    </header>
+    <div class="container">
+      <div class="row row-cols-1 row-cols-md-2 g-4">
+        <div class="col">
+          <div class="mb-3">
+            <label for="formGroupExampleInput" class="form-label">Seu nome (obrigatório)</label> 
+            <input type="text" class="form-control" id="formGroupExampleInput2">
+          </div>
+          <div class="mb-3">
+            <label for="formGroupExampleInput2" class="form-label">Seu e-mail (obrigatório)</label>
+            <input type="email" class="form-control" id="formGroupExampleInput2">
+          </div>
+          <div class="mb-3">
+            <label for="formGroupExampleInput2" class="form-label">Assunto</label>
+            <input type="text" class="form-control" id="formGroupExampleInput2">
+          </div>    
+          <div class="mb-3">
+            <label for="formGroupExampleInput2" class="form-label">Sua mensagem</label>
+            <textarea class="form-control" id="xampleFormControlTextarea1" rows="5"></textarea>
+          </div>
+          <button type="button" class="btn btn-primary">Enviar</button>
+        </div>
+
+        <div class="col">
+          <img src="./media/fachada_do_dc.jpg" class="img-thumbnail" alt="...">
+          <p style="color:#616161; text-align:center">A Fachada do Departamento de Computação da UFSCar</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+
+    <div style="text-align:center">
+      <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="#0d6efd" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+        <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+      </svg>
+      <h1 style= "color:#444444"><b>Venha nos conhecer</b></h1>
+    </div>
+
+    <footer class="text-center bg-light text-muted">
+      <hr>
+      <div class="row text-center p-4">
+        <p>
+          Universidade Federal de São Carlos
+          <br>
+          Rodovia Washington Luís, Km 235, s/n - Jardim Guanabara, São Carlos - SP, CEP 13565-905
+        </p>
+      </div>
+    
+      <div class="row text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+        <p>© 2022 BCC - UFSCar. Todos os Direitos Reservados. Desenvolvido por <a href="http://petbcc.dc.ufscar.br/">PET-BCC UFSCar</a>.</p>
+      </div>
+    </footer>
 
 </body>
 

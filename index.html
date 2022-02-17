@@ -5,33 +5,40 @@
   <title>Site ENC</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
   <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/home.css">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
-
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+  rel="stylesheet">
 </head>
 
 <body>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
-<header class="d-flex flex-wrap justify-content-center py-3">
-      <a href="" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
-        <img class="bi me-2" width="90" height="32" src="media/logo.png">
-      </a>
-
-      <ul class="nav nav-pills">
-        <li class="nav-item"><a href="./index.html" class="nav-link active" aria-current="page">Home</a></li>
-        <li class="nav-item"><a href="./sobre.html" class="nav-link">Sobre o curso</a></li>
-        <li class="nav-item"><a href="./oportunidades.html" class="nav-link">Oportunidades</a></li>
-        <li class="nav-item"><a href="./contato.html" class="nav-link">Contato</a></li>
-        <li class="nav-item"><a href="./faq.html" class="nav-link">FAQ</a></li>
-      </ul>
-    </header>
+  <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="./index.html"><img class="bi me-2" width="90" height="32" src="media/logo.png"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="nav nav-pills ms-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a href="./index.html" class="nav-link active">Home</a></li>
+          <li class="nav-item"><a href="./sobre.html" class="nav-link">Sobre o curso</a></li>
+          <li class="nav-item"><a href="./pessoas.html" class="nav-link">Pessoas</a></li>
+          <li class="nav-item"><a href="./oportunidades.html" class="nav-link" aria-current="page">Oportunidades</a></li>
+          <li class="nav-item"><a href="./contato.html" class="nav-link">Contato</a></li>
+          <li class="nav-item"><a href="./faq.html" class="nav-link">FAQ</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-indicators">
         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
       </div>
-    <div class="carousel-inner">
+    <div class="carousel-inner carousel-img">
       <div class="carousel-item active">
         <img src="./media/img1.jpg" class="d-block w-100" alt="...">
       </div>
@@ -51,17 +58,151 @@
       <span class="visually-hidden">Next</span>
     </button>
   </div>
-  <div class="section" style="background-color:#2991D6; height: 150px;">
-      <table style="height: 100%;width: 100%;background-color: aqua;">
+  <div class="section" style="background-color:#2991D6; height: 100px;">
+      <table style="height: 100%;width: 100%;">
         <tbody>
           <tr>
             <td class="align-middle">
-              <h1 class="text-center">Bem Vindo(a)!</h1>
+              <h1 class="text-center" style="color: white;">Bem Vindo(a)!</h1>
             </td>
           </tr>
         </tbody>
       </table>
+      <div class="section-divider"></div>
   </div>
+  <div class="container py-10 text-center" style="margin-top: 50px;">
+    <div class="row row-col-md-5">
+
+      <div class="col">
+        <a href="#" class="col btn-title" style="text-decoration: none">
+          <button class="btn circle row">
+            <span class="material-icons" style="font-size: 40px;">
+              menu_book
+            </span>
+          </button>
+          <p style="color: #444444; padding: 10px;">
+            Projeto Pedagógico
+          </p>
+        </a>
+      </div>
+      <div class="col">
+        <a href="#" class="col btn-title" style="text-decoration: none">
+          <button class="btn circle row">
+            <span class="material-icons" style="font-size: 40px;">
+              menu_book
+            </span>
+          </button>
+          <p style="color: #444444; padding: 10px;">
+            Projeto Pedagógico
+          </p>
+        </a>
+      </div>
+      <div class="col">
+        <a href="#" class="col btn-title" style="text-decoration: none">
+          <button class="btn circle row">
+            <span class="material-icons" style="font-size: 40px;">
+              menu_book
+            </span>
+          </button>
+          <p style="color: #444444; padding: 10px;">
+            Projeto Pedagógico
+          </p>
+        </a>
+      </div>
+      <div class="col">
+        <a href="#" class="col btn-title" style="text-decoration: none">
+          <button class="btn circle row">
+            <span class="material-icons" style="font-size: 40px;">
+              menu_book
+            </span>
+          </button>
+          <p style="color: #444444; padding: 10px;">
+            Projeto Pedagógico
+          </p>
+        </a>
+      </div>
+      <div class="col">
+        <a href="#" class="col btn-title" style="text-decoration: none">
+          <button class="btn circle row">
+            <span class="material-icons" style="font-size: 40px;">
+              menu_book
+            </span>
+          </button>
+          <p style="color: #444444; padding: 10px;">
+            Projeto Pedagógico
+          </p>
+        </a>
+      </div>
+
+    </div>
+
+    <div class="container py-10 text-center" style="margin-top: 50px;">
+      <div class="row row-col-md-5">
+  
+        <div class="col">
+          <a href="#" class="col btn-title" style="text-decoration: none">
+            <button class="btn circle row">
+              <span class="material-icons" style="font-size: 40px;">
+                menu_book
+              </span>
+            </button>
+            <p style="color: #444444; padding: 10px;">
+              Projeto Pedagógico
+            </p>
+          </a>
+        </div>
+        <div class="col">
+          <a href="#" class="col btn-title" style="text-decoration: none">
+            <button class="btn circle row">
+              <span class="material-icons" style="font-size: 40px;">
+                menu_book
+              </span>
+            </button>
+            <p style="color: #444444; padding: 10px;">
+              Projeto Pedagógico
+            </p>
+          </a>
+        </div>
+      </div>
+
+      <div class="row" style="padding: 20px;">
+
+        <div style="width: 50%; text-align: justify;">
+          <div>
+            <h3>Bacharelado em Ciência da Computação</h3>
+            <p>
+            O curso de Bacharelado em Ciência da Computação da UFSCar aborda conceitos teóricos e práticos da computação. Os alunos são preparados para desenvolver os mais variados sistemas de computação envolvendo, inclusive, aspectos de hardware.
+            </p>
+            <p>
+            O Bacharel em Ciência da Computação analisa as necessidades do usuário, desenvolve softwares, gerencia equipes e realiza instalação de softwares. Ele é capaz de desenvolver os mais variados tipos de softwares, desdes os mais básicos, como software para controle de estoque, até softwares mais complexos, como softwares que operam grandes máquinas na indústria.
+            </p>
+            <a class="btn btn-primary" href="./sobre.html" role="button">Saiba Mais</a>
+            </div>
+        </div>
+        <div style="width: 50%; background-color: #2991D6;">
+          <iframe style="margin:10px" width="90%" height="400" src="http://www.youtube.com/embed/vzNMc874zBg?wmode=opaque" allowfullscreen=""></iframe>
+        </div>
+
+      </div>
+
+</div>
+</div>
+
+  <footer class="text-center bg-light text-muted">
+    <hr>
+    <div class="row text-center p-4">
+      <p>
+        Universidade Federal de São Carlos
+        <br>
+        Rodovia Washington Luís, Km 235, s/n - Jardim Guanabara, São Carlos - SP, CEP 13565-905
+      </p>
+    </div>
+  
+    <div class="row text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+      <p>© 2022 BCC - UFSCar. Todos os Direitos Reservados. Desenvolvido por <a href="http://petbcc.dc.ufscar.br/">PET-BCC UFSCar</a>.</p>
+    </div>
+  </footer>
+
 </body>
 
 </html>

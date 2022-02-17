@@ -10,21 +10,161 @@
 </head>
 
 <body>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
-<header class="d-flex flex-wrap justify-content-center py-3">
-      <a href="" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
-        <img class="bi me-2" width="90" height="32" src="media/logo.png">
-      </a>
-
-      <ul class="nav nav-pills">
+<nav class="navbar navbar-expand-lg sticky-top navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="./index.html"><img class="bi me-2" width="90" height="32" src="media/logo.png"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="nav nav-pills ms-auto mb-2 mb-lg-0">
         <li class="nav-item"><a href="./index.html" class="nav-link">Home</a></li>
         <li class="nav-item"><a href="./sobre.html" class="nav-link">Sobre o curso</a></li>
+        <li class="nav-item"><a href="./pessoas.html" class="nav-link">Pessoas</a></li>
         <li class="nav-item"><a href="./oportunidades.html" class="nav-link active" aria-current="page">Oportunidades</a></li>
         <li class="nav-item"><a href="./contato.html" class="nav-link">Contato</a></li>
         <li class="nav-item"><a href="./faq.html" class="nav-link">FAQ</a></li>
       </ul>
-    </header>
+    </div>
+  </div>
+</nav>
+
+<div class="d-flex justify-content-center" style="margin-top: 3%;">
+  <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="#2991d6" class="bi bi-person-plus-fill" viewBox="0 0 16 16">
+    <path d="M1 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+    <path fill-rule="evenodd" d="M13.5 5a.5.5 0 0 1 .5.5V7h1.5a.5.5 0 0 1 0 1H14v1.5a.5.5 0 0 1-1 0V8h-1.5a.5.5 0 0 1 0-1H13V5.5a.5.5 0 0 1 .5-.5z"/>
+  </svg>
+</div>
+
+<div class="px-4 text-center">
+  <h2 class="title">
+    Oportunidades
+  </h2>
+  <br>
+  <div class="col-lg-6 mx-auto">
+    <p>Assim que o aluno ingressa em nosso curso, ele pode fazer parte de vários grupos acadêmicos para enriquecer sua formação técnica e pessoal. Alguns desses grupos fornecem bolsas de estudo e outros não. Abaixo encontram-­se descrições sucintas de cada grupo ou oportunidade existente no Departamento de Computação da UFSCar:</p>
+  </div>
+  <br>
+</div>
+
+<div class="container">
+  <div class="row row-cols-1 row-cols-md-2 g-4">
+    <div class="col">
+      <div class="card" style="height: 100%">
+        <img src="http://bcc2.dc.ufscar.br/wp-content/uploads/2016/03/Petbcc.jpg" class="card-img-top" alt="...">
+        <div class="card-body" style="height: 100%">
+          <h5 class="card-title">PET-BCC</h5>
+          <p class="card-text">O Programa de Educação Tutorial (PET) é um grupo que busca, através do professor tutor e seus colaboradores, proporcionar atividades extracurriculares aos alunos do curso de Bacharelado em Ciência da Computação (BCC) que visam o contato tanto com o mercado de trabalho quanto com a área acadêmica. O PET-BCC, em específico, é um dos únicos PETs temáticos do Brasil. Seu tema é desenvolvimento de software.</p>
+        </div>
+
+        <div class="card-body">
+          <a href="http://petbcc.dc.ufscar.br/" class="btn btn-primary">Saber mais</a>            
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card" style="height:100%">
+        <img src="http://bcc2.dc.ufscar.br/wp-content/uploads/2016/03/CatiJR1.jpg" class="card-img-top" alt="...">
+        <div class="card-body" style="height: 100%;">
+          <h5 class="card-title">Cati Jr</h5>
+          <p class="card-text">A Consultoria e Aplicações em Tecnologia de Informação e Engenharia (CATI) é a empresa júnior sediada no Departamento de Computação da Universidade Federal de São Carlos, englobando os cursos de Ciência e Engenharia de Computação.
+            Fundada em 1994, a CATI Jr. hoje é a mais antiga empresa júnior da UFSCar ainda em funcionamento e uma das pioneiras no Movimento Empresa Júnior nacional.
+            A CATI executa projetos na área de computação – sendo especializada em sites, sistemas web e aplicativos móveis – e engenharia – atuando na área de controle e automação.</p>
+        </div>
+        <div class="card-body">
+          <a href="http://catijr.ufscar.br/" class="btn btn-primary">Saber mais</a>             
+        </div>
+      </div>
+    </div> 
+    
+    <div class="col">
+      <div class="card" style="height:100%">
+        <img src="http://bcc2.dc.ufscar.br/wp-content/uploads/2016/03/PyLadies.jpg" class="card-img-top" alt="...">
+        <div class="card-body" style="height: 100%;">
+          <h5 class="card-title">PyLadies</h5>
+          <p class="card-text">O PyLadies é um grupo internacional com foco em ajudar mais mulheres a tornarem-se participantes ativas e líderes da comunidade Python de código aberto. O primeiro grupo foi criado nos Estados Unidos, em 2011, na cidade de Washington e hoje está presente em mais de 40 regiões em diferentes países. Na UFSCar, temos diversos membros participantes do PyLadies São Carlos.</p>
+        </div>
+
+        <div class="card-body">
+          <a href="http://saocarlos.pyladies.com/" class="btn btn-primary">Saber mais</a>            
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card" style="height:100%">
+        <img src="http://bcc2.dc.ufscar.br/wp-content/uploads/2016/03/MAU.jpg" class="card-img-top" alt="...">
+        <div class="card-body" style="height: 100%;">
+          <h5 class="card-title">M@U</h5>
+          <p class="card-text">O Grupo de Estudos Maratona at UFSCar (M@U) é o resultado do interesse de vários alunos de graduação em aprofundar seus conhecimentos na Computação. Os membros do M@U participam da Maratona de Programação, uma competição com fases Regional, Nacional e Mundial. Trata-se de uma prova com desafios semelhantes à Olimpíada de Matemática, mas com problemas de programação, e que também testa a capacidade dos participantes de trabalhar em equipe, já que a prova é feita por 3 pessoas em 1 computador. </p>
+        </div>
+        <div class="card-body">
+          <a href="http://bcc2.dc.ufscar.br/index.php/maratona-de-programacao/" class="btn btn-primary">Saber mais</a>             
+        </div>
+      </div>
+    </div> 
+
+    <div class="col">
+      <div class="card" style="height:100%">
+        <img src="http://bcc2.dc.ufscar.br/wp-content/uploads/2016/03/IC.jpg" class="card-img-top" alt="...">
+        <div class="card-body" style="height: 100%;">
+          <h5 class="card-title">Iniciação Científica</h5>
+          <p class="card-text">Durante a graduação o aluno pode desenvolver diversas pesquisas, sob a orientação de um professor do departamento. As quatro grandes áreas de pesquisa que são oferecidas no departamento são: Engenharia de Software, Inteligência Artificial, Interação Humano-Computador (IHC) e Computação Gráfica.</p>
+        </div>
+
+        <div class="card-body">
+          <a href="http://bcc2.dc.ufscar.br/index.php/maratona-de-programacao/" class="btn btn-primary">Saber mais</a>            
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card" style="height:100%">
+        <img src="http://bcc2.dc.ufscar.br/wp-content/uploads/2016/03/IoT.jpg" class="card-img-top" alt="...">
+        <div class="card-body" style="height: 100%;">
+          <h5 class="card-title">Internet of Things</h5>
+          <p class="card-text">O grupo de IoT do DC/UFSCar tem encontros semanais com o intuito de trocar informações sobre a Internet das Coisas. Com uma parceria da Intel, o departamento disponibiliza placas Intel Galileo para que os alunos possam trabalhar em projetos de Internet das Coisas na prática.</p>
+        </div>
+        <div class="card-body">
+          <a href="http://bcc2.dc.ufscar.br/index.php/internet-of-things/" class="btn btn-primary">Saber mais</a>             
+        </div>
+      </div>
+    </div> 
+    
+    <div class="col">
+      <div class="card" style="height:100%">
+        <img src="http://bcc2.dc.ufscar.br/wp-content/uploads/2016/03/MestradoDoutorado.jpg" class="card-img-top" alt="...">
+        <div class="card-body" style="height: 100%;">
+          <h5 class="card-title">Mestrado/Doutorado</h5>
+          <p class="card-text">O objetivo do Programa de Pós-Graduação em Ciência da Computação (PPG-CC) da UFSCar é formar profissionais altamente qualificados, que tenham condições de atuar tanto na carreira acadêmica como no mercado de trabalho. Com conceito 4 na avaliação CAPES o PPG-CC está estruturado em quatro linhas de pesquisa, a saber: Engenharia de Software, Banco de Dados e Interação Humano Computador (ES); Inteligência Artificial (IA); Processamento de Imagens e Sinais: Algoritmos e Arquiteturas (PIS) e Sistemas Distribuídos e Redes de Computadores (SDR). Um aluno de Ciência da Computação da UFSCar pode inclusive, no último ano de sua graduação, já cursar disciplinas do mestrado.</p>
+        </div>
+
+        <div class="card-body">
+          <a href="http://ppgcc.dc.ufscar.br/institucional" class="btn btn-primary">Saber mais</a>            
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<footer class="text-center bg-light text-muted">
+  <hr>
+  <div class="row text-center p-4">
+    <p>
+      Universidade Federal de São Carlos
+      <br>
+      Rodovia Washington Luís, Km 235, s/n - Jardim Guanabara, São Carlos - SP, CEP 13565-905
+    </p>
+  </div>
+
+  <div class="row text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+    <p>© 2022 BCC - UFSCar. Todos os Direitos Reservados. Desenvolvido por <a href="http://petbcc.dc.ufscar.br/">PET-BCC UFSCar</a>.</p>
+  </div>
+</footer>
 
 </body>
 
