@@ -10,6 +10,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
   <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/sobre.css">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
     crossorigin="anonymous"></script>
@@ -20,19 +21,24 @@
   <body style="background-color:whitesmoke">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
-    <header class="d-flex flex-wrap justify-content-center py-3" style="background-color: #f9f9f9;">
-      <a href="" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
-        <img class="bi me-2" width="90" height="32" src="media/logo.png">
-      </a>
-
-      <ul class="nav nav-pills">
-        <li class="nav-item"><a href="./index.html" class="nav-link">Home</a></li>
-        <li class="nav-item"><a href="./sobre.html" class="nav-link active" aria-current="page">Sobre o curso</a></li>
-        <li class="nav-item"><a href="./oportunidades.html" class="nav-link">Oportunidades</a></li>
-        <li class="nav-item"><a href="./contato.html" class="nav-link">Contato</a></li>
-        <li class="nav-item"><a href="./faq.html" class="nav-link">FAQ</a></li>
-      </ul>
-    </header>
+    <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="./index.html"><img class="bi me-2" width="90" height="32" src="media/logo.png"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="nav nav-pills ms-auto mb-2 mb-lg-0">
+            <li class="nav-item"><a href="./index.html" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="./sobre.html" class="nav-link active">Sobre o curso</a></li>
+            <li class="nav-item"><a href="./pessoas.html" class="nav-link">Pessoas</a></li>
+            <li class="nav-item"><a href="./oportunidades.html" class="nav-link" aria-current="page">Oportunidades</a></li>
+            <li class="nav-item"><a href="./contato.html" class="nav-link">Contato</a></li>
+            <li class="nav-item"><a href="./faq.html" class="nav-link">FAQ</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
     <div class="d-flex justify-content-center" style="margin-top: 3%;">
       <span class="material-icons" style=" font-size: 50px; color:#2991d6">
@@ -265,7 +271,7 @@
                   <h4>Bolsas e Auxílios</h4>
 
                   <p>
-                   O Programa de Assistência Estudantil da UFSCar prevê que os estudantes em vulnerabilidade socioeconômica possam receber bolsas e auxílios de modo a favorecer sua permanência e a conclusão do curso no tempo regular. O Programa conta com três tipos de bolsas e um tipo de auxílio:
+                  O Programa de Assistência Estudantil da UFSCar prevê que os estudantes em vulnerabilidade socioeconômica possam receber bolsas e auxílios de modo a favorecer sua permanência e a conclusão do curso no tempo regular. O Programa conta com três tipos de bolsas e um tipo de auxílio:
                   </p>
                   <p></p>
                   <p>
@@ -287,7 +293,89 @@
             </div>
             </div>
       </div>
+    
+  </div>
+  <div class="container py-10 text-center" style="margin-top: 50px;">
+    <div class="row row-col-md-5">
+
+      <div class="col">
+        <div class="col btn-title NumCol">
+          <button class="btn row">
+            <span class="material-icons NumIcon">
+              school
+            </span>
+          </button>
+          <p class="Num">
+            X
+          </p>
+          <p class="NumLabel">
+            Alunos Formados
+          </p>
+        </div>
+      </div>
+      <div class="col">
+        <div class="col btn-title NumCol">
+          <button class="btn row">
+            <span class="material-icons NumIcon">
+              person_add
+            </span>
+          </button>
+          <p class="Num">
+            Y
+          </p>
+          <p class="NumLabel">
+            Vagas Anuais
+          </p>
+        </div>
+      </div>
+      <div class="col">
+        <div class="col btn-title NumCol">
+          <button class="btn row">
+            <span class="material-icons NumIcon">
+              hourglass_bottom
+            </span>
+          </button>
+          <p class="Num">
+            5
+          </p>
+          <p class="NumLabel">
+            Anos de duração
+          </p>
+        </div>
+      </div>
+      <div class="col">
+        <div class="col btn-title NumCol">
+          <button class="btn row">
+            <span class="material-icons NumIcon">
+              emoji_events
+            </span>
+          </button>
+          <p class="Num">
+            Z
+          </p>
+          <p class="NumLabel">
+            no Enade
+          </p>
+        </div>
+      </div>
     </div>
+    </div>
+    
+  <footer class="text-center bg-light text-muted">
+    <hr>
+    <div class="row text-center p-4">
+      <p>
+        Universidade Federal de São Carlos
+        <br>
+        Rodovia Washington Luís, Km 235, s/n - Jardim Guanabara, São Carlos - SP, CEP 13565-905
+      </p>
+    </div>
+  
+    <div class="row text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+      <p>© 2022 BCC - UFSCar. Todos os Direitos Reservados. Desenvolvido por <a href="http://petbcc.dc.ufscar.br/">PET-BCC UFSCar</a>.</p>
+    </div>
+  </footer>
+
   </body>
 
 </html>
